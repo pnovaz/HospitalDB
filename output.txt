@@ -1,0 +1,860 @@
+@run
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the insurance table
+DOC>** --------------------------------------------------------------------------*/
+
+Table INSURANCE created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the account table
+DOC>** --------------------------------------------------------------------------*/
+
+Table ACCOUNT created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the patient record table
+DOC>** --------------------------------------------------------------------------*/
+
+Table PATIENTRECORD created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the employee table
+DOC>** --------------------------------------------------------------------------*/
+
+Table EMPLOYEE created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the administrator table
+DOC>** --------------------------------------------------------------------------*/
+
+Table ADMINISTRATOR created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the nurse table
+DOC>** --------------------------------------------------------------------------*/
+
+Table NURSE created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the doctor table
+DOC>** --------------------------------------------------------------------------*/
+
+Table DOCTOR created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the receptionist table
+DOC>** --------------------------------------------------------------------------*/
+
+Table RECEPTIONIST created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the patient table
+DOC>** --------------------------------------------------------------------------*/
+
+Table PATIENT created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the bill table
+DOC>** --------------------------------------------------------------------------*/
+
+Table BILL created.
+
+No errors.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to create the diagnosis table
+DOC>** --------------------------------------------------------------------------*/
+
+Table DIAGNOSIS created.
+
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to alter the diagnosis table
+DOC>** --------------------------------------------------------------------------*/
+
+Table DIAGNOSIS altered.
+
+No errors.
+Name        Null?    Type         
+----------- -------- ------------ 
+COMPANYNAME NOT NULL VARCHAR2(20) 
+Name       Null?    Type         
+---------- -------- ------------ 
+BDAY                VARCHAR2(20) 
+ACCOUNTNO  NOT NULL VARCHAR2(10) 
+PATIENTSSN NOT NULL VARCHAR2(9)  
+Name           Null?    Type         
+-------------- -------- ------------ 
+MEDICALHISTORY          VARCHAR2(50) 
+TREATMENT               VARCHAR2(50) 
+DNR            NOT NULL CHAR(1)      
+ANUM           NOT NULL VARCHAR2(10) 
+INSURANCECO             VARCHAR2(20) 
+ALLERGIES               VARCHAR2(50) 
+Name       Null?    Type         
+---------- -------- ------------ 
+STATUS     NOT NULL VARCHAR2(20) 
+EMPLOYEEID NOT NULL VARCHAR2(10) 
+HIREDATE   NOT NULL DATE         
+NAME       NOT NULL VARCHAR2(50) 
+Name     Null?    Type         
+-------- -------- ------------ 
+STATUS   NOT NULL VARCHAR2(20) 
+EID      NOT NULL VARCHAR2(10) 
+HIREDATE NOT NULL DATE         
+NAME     NOT NULL VARCHAR2(50) 
+Name     Null?    Type         
+-------- -------- ------------ 
+STATUS   NOT NULL VARCHAR2(20) 
+EID      NOT NULL VARCHAR2(10) 
+HIREDATE NOT NULL DATE         
+NAME     NOT NULL VARCHAR2(50) 
+Name     Null?    Type         
+-------- -------- ------------ 
+STATUS   NOT NULL VARCHAR2(20) 
+EID      NOT NULL VARCHAR2(10) 
+HIREDATE NOT NULL DATE         
+NAME     NOT NULL VARCHAR2(20) 
+Name       Null?    Type         
+---------- -------- ------------ 
+STATUS     NOT NULL VARCHAR2(20) 
+EMPLOYEEID NOT NULL VARCHAR2(10) 
+HIREDATE   NOT NULL DATE         
+NAME       NOT NULL VARCHAR2(50) 
+Name             Null?    Type         
+---------------- -------- ------------ 
+ANO              NOT NULL VARCHAR2(10) 
+STATUS           NOT NULL VARCHAR2(20) 
+ADDRESS          NOT NULL VARCHAR2(50) 
+DOB              NOT NULL DATE         
+GENDER           NOT NULL CHAR(1)      
+SSN              NOT NULL VARCHAR2(9)  
+INSURANCE                 VARCHAR2(20) 
+ALLERGIES                 VARCHAR2(20) 
+EMERGENCYCONTACT          VARCHAR2(15) 
+NAME             NOT NULL VARCHAR2(20) 
+Name            Null?    Type         
+--------------- -------- ------------ 
+CHARGE                   VARCHAR2(50) 
+INSURANCEAMOUNT          VARCHAR2(50) 
+PATIENTAMOUNT            VARCHAR2(50) 
+PATIENTNAME     NOT NULL VARCHAR2(50) 
+ANO             NOT NULL VARCHAR2(10) 
+Name           Null?    Type          
+-------------- -------- ------------- 
+DATESEEN       NOT NULL DATE          
+MEDICINENEEDED          VARCHAR2(100) 
+CONDITION      NOT NULL VARCHAR2(20)  
+ANO            NOT NULL VARCHAR2(10)  
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into insurance table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert the data into account table
+DOC>** --------------------------------------------------------------------------*/
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into patient record table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert 20 employees all employees into employee table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into the administrator table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into the nurse table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into doctor table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into receptionist table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into patient table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into bill table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to insert data into diagnosis table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update  condition in the employee table for santa clause and frankie munoz
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update total charge for santa claus and frankie munoz
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update address in the patient table for Frankie Munoz and Santa Clause
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update status to on duty for Frank May and Derrick vineyard in the receptinost table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update status to on duty for felicity jones and randy rice in the doctor table
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update doctors status to on duty
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update nurse status to on duty
+DOC>** --------------------------------------------------------------------------*/
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update administrator's hire date
+DOC>** --------------------------------------------------------------------------*/
+
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update birthday of patient 
+DOC>** --------------------------------------------------------------------------*/
+
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update insurance companies table
+DOC>** --------------------------------------------------------------------------*/
+
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** update patient DNR 
+DOC>** --------------------------------------------------------------------------*/
+
+
+1 row updated.
+
+
+1 row updated.
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** insurance company content
+DOC>** --------------------------------------------------------------------------*/
+
+COMPANYNAME         
+--------------------
+Affordable Care Act
+Blue Cross
+Cigna
+Kaiser Permanente
+Mercy
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** account table content
+DOC>** --------------------------------------------------------------------------*/
+
+BDAY                 ACCOUNTNO  PATIENTSS
+-------------------- ---------- ---------
+05-AUG-99            123        432343232
+06-AUG-77            231        899998978
+12-AUG-89            345        892893898
+12-SEP-99            523        987432378
+20-AUG-88            303        890434389
+12-JUL-94            111        897382323
+12-JUL-89            222        432980429
+13-AUG-94            333        898437823
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** patient record table content
+DOC>** --------------------------------------------------------------------------*/
+
+MEDICALHISTORY                                     TREATMENT                                          D ANUM       INSURANCECO          ALLERGIES                                         
+-------------------------------------------------- -------------------------------------------------- - ---------- -------------------- --------------------------------------------------
+                                                                                                      N 123        Cigna                Aspirin                                           
+Diabetes                                           Insulin                                            Y 231                                                                               
+                                                                                                      N 345        Kaiser Permanente                                                      
+                                                                                                      Y 523        Cigna                                                                  
+                                                                                                      N 303        Cigna                                                                  
+Anxiety                                                                                               Y 111        Cigna                                                                  
+Heart Disease                                                                                         N 222        Cigna                                                                  
+Obesity                                                                                               Y 333        Cigna                                                                  
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** employee table content
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               EMPLOYEEID HIREDATE  NAME                                              
+-------------------- ---------- --------- --------------------------------------------------
+On Duty              100        13-AUG-94 Jane Jones                                        
+Off Duty             200        12-JUL-98 Taylor Johnson                                    
+Off Duty             300        01-AUG-90 Antoinette Taylor                                 
+Off Duty             400        02-AUG-99 Derrick Vineyard                                  
+Off Duty             500        09-AUG-98 Frank May                                         
+On Duty              600        09-AUG-99 Hope Sanders                                      
+On Duty              700        03-AUG-96 Tanner Roberts                                    
+On Duty              800        09-AUG-98 Robert Johnson                                    
+Off Duty             900        09-AUG-99 Felicity Jones                                    
+Off Duty             1000       04-AUG-99 Randy Rice                                        
+On Duty              1100       08-AUG-99 Elena DeLaCroix                                   
+
+STATUS               EMPLOYEEID HIREDATE  NAME                                              
+-------------------- ---------- --------- --------------------------------------------------
+On Duty              1200       07-AUG-98 Faith Wilson                                      
+On Duty              1300       08-AUG-99 Gunther Gump                                      
+Off Duty             1400       09-AUG-99 Sandy Sand                                        
+Off Duty             1500       08-AUG-98 Suzie Sue                                         
+On Duty              1600       04-AUG-99 Sarah Roberts                                     
+On Duty              1700       09-AUG-92 Lila Leonard                                      
+On Duty              1800       09-AUG-93 Gerry Gabaldon                                    
+On Duty              1900       10-AUG-99 Heather Kaiser                                    
+On Duty              2000       10-AUG-99 Kennedy Roberts                                   
+
+20 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** administrator table content
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               EID        HIREDATE  NAME                                              
+-------------------- ---------- --------- --------------------------------------------------
+On Duty              1600       04-AUG-99 Sarah Roberts                                     
+On Duty              1700       09-AUG-92 Lila Leonard                                      
+On Duty              1800       09-AUG-93 Gerry Gabaldon                                    
+On Duty              1900       08-AUG-95 Heather Kaiser                                    
+On Duty              2000       07-AUG-97 Kennedy Roberts                                   
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** nurse table content
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               EID        HIREDATE  NAME                                              
+-------------------- ---------- --------- --------------------------------------------------
+On Duty              1100       08-AUG-99 Elena DeLaCroix                                   
+On Duty              1200       07-AUG-98 Faith Wilson                                      
+On Duty              1300       08-AUG-99 Gunther Gump                                      
+On Duty              1400       09-AUG-99 Suzy Sand                                         
+On Duty              1500       08-AUG-98 Suzie Sue                                         
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** doctor table content
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               EID        HIREDATE  NAME                
+-------------------- ---------- --------- --------------------
+On Duty              600        09-AUG-99 Hope Sanders        
+On Duty              700        03-AUG-96 Tanner Roberts      
+On Duty              800        09-AUG-98 Robert Johnson      
+On Duty              900        09-AUG-99 Felicity Jones      
+On Duty              1000       04-AUG-99 Randy Rice          
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** receptionist table content
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               EMPLOYEEID HIREDATE  NAME                                              
+-------------------- ---------- --------- --------------------------------------------------
+On Duty              100        13-AUG-94 Jane Jones                                        
+Off Duty             200        12-JUL-98 Taylor Johnson                                    
+Off Duty             300        01-AUG-90 Antoinette Taylor                                 
+On Duty              400        02-AUG-99 Derrick Vineyard                                  
+On Duty              500        09-AUG-98 Frank May                                         
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** patient table content
+DOC>** --------------------------------------------------------------------------*/
+
+ANO        STATUS               ADDRESS                                            DOB       G SSN       INSURANCE            ALLERGIES            EMERGENCYCONTAC NAME                
+---------- -------------------- -------------------------------------------------- --------- - --------- -------------------- -------------------- --------------- --------------------
+123        Seen                 3943 E Flower                                      20-JAN-77 F 432343232 Cigna                Aspirin              6034344343      Freddie Krueger     
+231        Waiting              3232 E Devonshire                                  21-JAN-89 F 899998978                                                           Jamie Lee           
+345        Waiting              8989 E Thomas                                      12-AUG-89 F 892893898 Kaiser Permanente                         7878323489      Serena Williams     
+523        Seen                 2323 E Indian School                               12-SEP-99 F 987432378 Cigna                                                     Stephen Curry       
+303        Seen                 3423 E Heaven                                      20-AUG-88 F 890434389 Cigna                                                     Brittney Spears     
+111        Waiting              3898 E Belle                                       12-JUL-94 F 897382323 Cigna                                     6859848988      Petra Novakovic     
+222        Waiting              9090 E Calle Del Norte                             12-JUL-89 M 432980429 Cigna                                                     Frankie Munoz       
+333        Seen                 2323 E Lafayette                                   13-AUG-94 F 898437823 Cigna                                                     Santa Claus         
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** bill table content
+DOC>** --------------------------------------------------------------------------*/
+
+CHARGE                                             INSURANCEAMOUNT                                    PATIENTAMOUNT                                      PATIENTNAME                                        ANO       
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------
+$10000                                             $500                                               $500                                               Freddie Krueger                                    123       
+$100                                               $50                                                $50                                                Jamie Lee                                          231       
+                                                                                                                                                         Serena Williams                                    345       
+                                                                                                                                                         Stephen Curry                                      523       
+                                                                                                                                                         Britney Spears                                     303       
+                                                                                                                                                         Petra Novakovic                                    111       
+$0                                                                                                                                                       Frankie Munoz                                      222       
+$0                                                                                                                                                       Santa Claus                                        333       
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** diagnosis table content
+DOC>** --------------------------------------------------------------------------*/
+
+DATESEEN  MEDICINENEEDED                                                                                       CONDITION            ANO       
+--------- ---------------------------------------------------------------------------------------------------- -------------------- ----------
+01-AUG-94                                                                                                      Stable               123       
+08-AUG-94                                                                                                      Stable               231       
+08-AUG-94                                                                                                      Stable               345       
+08-AUG-94                                                                                                      Stable               523       
+08-AUG-94                                                                                                      Unstable             303       
+08-AUG-94                                                                                                      Stable               111       
+08-AUG-94                                                                                                      Stable               222       
+08-AUG-94                                                                                                      Unstable             333       
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** retrieve list of patients currently waiting
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               NAME                
+-------------------- --------------------
+Waiting              Jamie Lee           
+Waiting              Serena Williams     
+Waiting              Petra Novakovic     
+Waiting              Frankie Munoz       
+
+DOC>** ----------------------------------------------------------------------------
+DOC>**	   Retrieve list of all nurses currently on duty.
+DOC>**	    
+DOC>** --------------------------------------------------------------------------*/
+
+
+STATUS               NAME                                              
+-------------------- --------------------------------------------------
+On Duty              Elena DeLaCroix                                   
+On Duty              Faith Wilson                                      
+On Duty              Gunther Gump                                      
+On Duty              Suzy Sand                                         
+On Duty              Suzie Sue                                         
+
+
+DOC>** ----------------------------------------------------------------------------
+DOC>**	    List all patients and their current condition along with account number
+DOC>**	    
+DOC>** --------------------------------------------------------------------------*/
+
+
+
+NAME                 ANO        CONDITION           
+-------------------- ---------- --------------------
+Freddie Krueger      123        Stable              
+Jamie Lee            231        Stable              
+Serena Williams      345        Stable              
+Stephen Curry        523        Stable              
+Brittney Spears      303        Unstable            
+Petra Novakovic      111        Stable              
+Frankie Munoz        222        Stable              
+Santa Claus          333        Unstable            
+
+8 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>**
+DOC>**	    Retrieve ALL employees that are currently on duty (doctors, nurses,etc)
+DOC>** --------------------------------------------------------------------------*/
+
+STATUS               NAME                                              
+-------------------- --------------------------------------------------
+On Duty              Jane Jones                                        
+On Duty              Hope Sanders                                      
+On Duty              Tanner Roberts                                    
+On Duty              Robert Johnson                                    
+On Duty              Elena DeLaCroix                                   
+On Duty              Faith Wilson                                      
+On Duty              Gunther Gump                                      
+On Duty              Sarah Roberts                                     
+On Duty              Lila Leonard                                      
+On Duty              Gerry Gabaldon                                    
+On Duty              Heather Kaiser                                    
+
+STATUS               NAME                                              
+-------------------- --------------------------------------------------
+On Duty              Kennedy Roberts                                   
+
+12 rows selected. 
+
+DOC>** ----------------------------------------------------------------------------
+DOC>** script to drop all objects in the database
+DOC>** --------------------------------------------------------------------------*/
+
+
+Table PATIENTRECORD dropped.
+
+
+Table EMPLOYEE dropped.
+
+
+Table ADMINISTRATOR dropped.
+
+
+Table NURSE dropped.
+
+
+Table DOCTOR dropped.
+
+
+Table RECEPTIONIST dropped.
+
+
+Table PATIENT dropped.
+
+
+Table BILL dropped.
+
+
+Table DIAGNOSIS dropped.
+
+
+Table INSURANCE dropped.
+
+
+Table ACCOUNT dropped.
+
+SQL> 
